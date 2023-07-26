@@ -73,7 +73,7 @@
 
         <!---Slide 1-->
       
-        <div class="max-w-6xl h-auto border m-auto mt-10 relative">
+        <div class="max-w-6xl h-auto border m-auto mt-10 relative rounded-lg">
 
           <div class="carousel w-full m-auto">
 
@@ -160,7 +160,7 @@
             </div>
           </div>
           <!--Fruits Section-->
-          <div class="w-2/3 h-32 border-2 inset-x-40 top-80 bg-white mt-[-10] absolute flex justify-around rounded-lg items-center">
+          <div class="w-2/3 h-32 border-2 inset-x-40 top-80 bg-white mt-[-10] absolute grid grid-cols-5 justify-around rounded-lg hidden lg:grid">
 
             <!--Fruits 1-->
             <div class="">
@@ -199,6 +199,141 @@
 
         </section>
     </header>
+
+    <main>
+
+      <!--The day Section-->
+      <section class="mt-40 mb-20 flex justify-around max-w-6xl m-auto flex-col md:flex-row ">
+        <div class="flex-1">
+          <h2 class="text-[#121212] text-5xl lato-font font-extrabold">Deal of the day</h2>
+          <p class="pt-3 text-[rgba(18, 18, 18, 0.60);] text-base lato-font font-medium leading-7">Contrary to popular belief, is not simply random text. It has roots in a piece of classical<br> Latin literature from 45 BC, making it over 2000 years old.</p>
+        </div>
+        <div>
+
+          <!--Timer Section-->
+          <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+            <div class="flex flex-col">
+              <span class="countdown font-mono text-5xl">
+                <span class="text-5xl lato-font text-[#121212] font-extrabold" style="--value:15;"></span>
+              </span>
+              days
+            </div> 
+            <div class="flex flex-col">
+              <span class="countdown font-mono text-5xl">
+                <span class="text-5xl lato-font text-[#121212] font-extrabold" style="--value:10;"></span>
+              </span>
+              hours
+            </div> 
+            <div class="flex flex-col">
+              <span class="countdown font-mono text-5xl">
+                <span class="text-5xl lato-font text-[#121212] font-extrabold" style="--value:24;"></span>
+              </span>
+              min
+            </div> 
+            <div class="flex flex-col">
+              <span class="countdown font-mono text-5xl text-[rgba(18, 18, 18, 0.60)]">
+                <span class="text-5xl lato-font text-[#121212] font-extrabold" style="--value:39;"></span>
+              </span>
+              sec
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Card-Section-->
+      <section>
+
+        <div class="max-w-6xl m-auto grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 mb-10 gap-5 justify-center">
+          <!--Card 1-->
+          <div class="card  bg-base-100 shadow-xl border">
+            <figure class="px-10 pt-10">
+              <img src="images/fruit6.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title text-[#121212] lato-font text-2xl font-bold pb-5 ">12.90$ - 18.85$</h2>
+              <p class="text-[rgba(18, 18, 18, 0.60)] lato-font text-base font-medium">Apples</p>
+              <div class="card-actions">
+                <div class="rating">
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" checked />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#f0b59e]" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FBC0A8]" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FBC0A8]" />
+                </div>
+              </div>
+              <h4 class="text-[#F85559] lato-font font-bold text-lg pt-4">Details</h4>
+            </div>
+          </div>
+          <!--Card-2-->
+          <div class="card  bg-base-100 shadow-xl border">
+            <figure class="px-10 pt-10">
+              <img src="images/fruit7.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title text-[#121212] lato-font text-2xl font-bold pb-5">12.90$ - 18.85$</h2>
+              <p class="text-[rgba(18, 18, 18, 0.60)] lato-font text-base font-medium">Apples</p>
+              <div class="card-actions">
+                <div class="rating">
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" checked />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#f0b59e]" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FBC0A8]" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FBC0A8]" />
+                </div>
+              </div>
+              <h4 class="text-[#F85559] lato-font font-bold text-lg pt-4">Details</h4>
+            </div>
+          </div>
+          <!--Card-3 -->
+          <div class="card bg-base-100 shadow-xl border ">
+            <figure class="px-10 pt-10">
+              <img src="images/fruit8.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title text-[#121212] lato-font text-2xl font-bold pb-5">12.90$ - 18.85$</h2>
+              <p class="text-[rgba(18, 18, 18, 0.60)] lato-font text-base font-medium">Apples</p>
+              <div class="card-actions">
+                <div class="rating">
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" checked />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#f0b59e]" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FBC0A8]" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FBC0A8]" />
+                </div>
+              </div>
+              <h4 class="text-[#F85559] lato-font font-bold text-lg pt-4">Details</h4>
+            </div>
+          </div>
+          <!--Card 4-->
+          <div class="card  bg-base-100 shadow-xl border">
+            <figure class="px-10 pt-10">
+              <img src="images/fruit9.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title text-[#121212] lato-font text-2xl font-bold pb-5">12.90$ - 18.85$</h2>
+              <p class="text-[rgba(18, 18, 18, 0.60)] lato-font text-base font-medium">Apples</p>
+              <div class="card-actions">
+                <div class="rating">
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" checked />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#f8b297]" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#fdb99d]" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#ffb597]" />
+                </div>
+              </div>
+              <h4 class="text-[#F85559] lato-font font-bold text-lg pt-4">Details</h4>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-center mb-20">
+          <button class="btn btn-warning text-white lato-font text-lg font-extrabold  hover:bg-[#F85559] border-none bg-[#F85559]">Shop All</button>
+        </div>
+
+      </section>
+
+
+
+    </main>
     
 
     
